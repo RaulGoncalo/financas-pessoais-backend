@@ -1,0 +1,92 @@
+2022-10-15T21:49:43.020Z  [personalFinances-api] error GET  - Informe o ID do usuário
+2022-10-15T21:50:06.997Z  [personalFinances-api] error GET  - Informe o ID do usuário
+2022-10-15T21:50:09.568Z  [personalFinances-api] error GET  - Informe o ID do usuário
+2022-10-15T21:51:37.855Z  [personalFinances-api] error POST  - column "user_id" of relation "users" does not exist
+2022-10-15T21:52:11.587Z  [personalFinances-api] error POST  - column "userId" of relation "users" does not exist
+2022-10-15T21:53:05.606Z  [personalFinances-api] info POST /user - {"name":"Raul Gonçalo Oliveira da Silva","email":"raulgoncalo.98@gmail.com","password":"ra100398ul"}
+2022-10-15T21:54:24.956Z  [personalFinances-api] error POST  - column "user__id" of relation "users" does not exist
+2022-10-15T21:54:31.685Z  [personalFinances-api] error POST  - column "user__id" of relation "users" does not exist
+2022-10-15T21:54:42.902Z  [personalFinances-api] info POST /user - {"name":"Raul Gonçalo Oliveira da Silva","email":"raulgoncalo.98@gmail.com","password":"ra100398ul"}
+2022-10-15T21:55:17.591Z  [personalFinances-api] error GET  - Informe o ID do usuário
+2022-10-15T21:55:20.031Z  [personalFinances-api] error GET  - Informe o ID do usuário
+2022-10-15T21:55:40.945Z  [personalFinances-api] info GET /user - "1"
+2022-10-15T21:55:56.856Z  [personalFinances-api] info GET /user - "1"
+2022-10-15T21:56:04.135Z  [personalFinances-api] info POST /user - {"name":"Raul Gonçalo Oliveira da Silva","email":"raulgoncalo.98@gmail.com","password":"ra100398ul"}
+2022-10-15T22:00:50.170Z  [personalFinances-api] error POST  - Usuário já cadastrado
+2022-10-15T22:01:03.891Z  [personalFinances-api] info POST /user - {"name":"Raul Gonçalo Oliveira da Silva","email":"raulgoncalo1.98@gmail.com","password":"ra100398ul"}
+2022-10-15T22:04:38.754Z  [personalFinances-api] error POST  - Usuário já cadastrado
+2022-10-15T23:15:21.434Z  [personalFinances-api] error POST  - Usuário já cadastrado
+2022-10-15T23:15:28.586Z  [personalFinances-api] info POST /user - {"name":"Raul Gonçalo Oliveira da Silva","email":"raulgoncalo2.98@gmail.com","password":"ra100398ul"}
+2022-10-15T23:25:53.354Z  [personalFinances-api] info POST /user - {"name":"Raul Gonçalo Oliveira da Silva","email":"raulgoncalo.98@gmail.com","password":"ra100398ul"}
+2022-10-15T23:27:00.508Z  [personalFinances-api] error POST  - Usuário já cadastrado
+2022-10-15T23:27:05.046Z  [personalFinances-api] info GET /user - "1"
+2022-10-15T23:27:38.002Z  [personalFinances-api] info GET /user - "1"
+2022-10-15T23:28:16.483Z  [personalFinances-api] error PUT  - user is not defined
+2022-10-15T23:28:44.356Z  [personalFinances-api] error PUT  - user is not defined
+2022-10-15T23:29:31.100Z  [personalFinances-api] error PUT  - WHERE parameter "userId" has invalid "undefined" value
+2022-10-15T23:29:46.239Z  [personalFinances-api] error PUT  - WHERE parameter "userId" has invalid "undefined" value
+2022-10-15T23:29:48.257Z  [personalFinances-api] error PUT  - WHERE parameter "userId" has invalid "undefined" value
+2022-10-15T23:30:29.485Z  [personalFinances-api] error PUT  - WHERE parameter "user_Id" has invalid "undefined" value
+2022-10-15T23:30:31.317Z  [personalFinances-api] error PUT  - WHERE parameter "user_Id" has invalid "undefined" value
+2022-10-15T23:30:43.334Z  [personalFinances-api] info PUT /user - {"user_id":1,"name":"Raul Gonçalo Oliveira da Silva","email":"raulgoncalo@gmail.com","password":"R@100398ul"}
+2022-10-15T23:30:45.803Z  [personalFinances-api] info PUT /user - {"user_id":1,"name":"Raul Gonçalo Oliveira da Silva","email":"raulgoncalo@gmail.com","password":"R@100398ul"}
+2022-10-15T23:31:58.505Z  [personalFinances-api] info PUT /user - {"user_id":1,"name":"Raul Gonçalo Oliveira da Silva","email":"raulgoncalo.98@gmail.com","password":"R@100398ul"}
+2022-10-15T23:34:23.005Z  [personalFinances-api] info GET /user - "1"
+2022-10-15T23:34:24.613Z  [personalFinances-api] info GET /user - "1"
+2022-10-16T00:20:04.320Z  [personalFinances-api] info GET /user - "1"
+2022-10-16T00:20:35.560Z  [personalFinances-api] info POST /user - {"name":"Bianca Cristina Ferreira","email":"biancaFerreira.28@gmail.com","password":"ra100398ul"}
+2022-10-16T00:20:42.659Z  [personalFinances-api] info GET /user - "1"
+2022-10-16T00:20:52.001Z  [personalFinances-api] info GET /user - "1"
+2022-10-16T00:20:56.010Z  [personalFinances-api] info GET /user - "1"
+2022-10-16T00:21:12.036Z  [personalFinances-api] error POST  - Usuário já cadastrado
+2022-10-16T00:21:29.198Z  [personalFinances-api] error POST  - Nome, categoria, total, data e formada de pagamento da conta são obrigatórios
+2022-10-16T00:25:39.709Z  [personalFinances-api] error POST  - Nome, categoria, total, data e formada de pagamento da conta são obrigatórios
+2022-10-16T00:26:15.679Z  [personalFinances-api] error POST  - notNull Violation: bills.user_id cannot be null
+2022-10-16T00:27:13.437Z  [personalFinances-api] error POST  - invalid input syntax for type date: "Invalid date"
+2022-10-16T00:30:21.792Z  [personalFinances-api] info POST /bill - {"name":"Compra do mes","user_id":1,"category":"Mercado - Alimentação - Higiene","establishment":"Savenhago","amount":1635.35,"purchase_date":"2022-10-15","payment":"À vista"}
+2022-10-16T00:31:34.185Z  [personalFinances-api] info GET /bill/userId - lista de contad do user: "1"
+2022-10-16T00:32:13.947Z  [personalFinances-api] info GET /bill/userId - lista de contad do user: "1"
+2022-10-16T00:32:49.752Z  [personalFinances-api] info DELETE /bill/id - "3"
+2022-10-16T00:32:54.367Z  [personalFinances-api] info DELETE /bill/id - "2"
+2022-10-16T00:32:57.675Z  [personalFinances-api] info GET /bill/userId - lista de contad do user: "1"
+2022-10-16T00:33:39.371Z  [personalFinances-api] info POST /bill - {"name":"Remédios tosse","user_id":1,"category":"Saude","establishment":"Drogaria Raia","amount":35.95,"purchase_date":"2022-10-15","payment":"À vista"}
+2022-10-16T00:33:43.374Z  [personalFinances-api] info GET /bill/userId - lista de contad do user: "1"
+2022-10-16T00:34:18.683Z  [personalFinances-api] error PUT  - ID do usuário, nome, email e senha são nescessários
+2022-10-16T00:34:29.240Z  [personalFinances-api] error PUT  - invalid input syntax for type integer: "[object Object]"
+2022-10-16T00:36:27.074Z  [personalFinances-api] error PUT  - invalid input syntax for type integer: "[object Object]"
+2022-10-16T00:36:29.514Z  [personalFinances-api] error PUT  - invalid input syntax for type integer: "[object Object]"
+2022-10-16T00:37:24.748Z  [personalFinances-api] error POST  - Validation error
+2022-10-16T00:38:00.469Z  [personalFinances-api] info GET /bill/userId - lista de contad do user: "1"
+2022-10-16T00:38:32.026Z  [personalFinances-api] info GET /bill/userId - lista de contad do user: "1"
+2022-10-16T00:38:47.802Z  [personalFinances-api] error PUT  - invalid input syntax for type integer: "[object Object]"
+2022-10-16T00:38:56.911Z  [personalFinances-api] error PUT  - invalid input syntax for type integer: "[object Object]"
+2022-10-16T00:38:59.946Z  [personalFinances-api] error PUT  - invalid input syntax for type integer: "[object Object]"
+2022-10-16T00:39:20.505Z  [personalFinances-api] error PUT  - invalid input syntax for type integer: "[object Object]"
+2022-10-16T00:40:17.508Z  [personalFinances-api] error PUT  - invalid input syntax for type integer: "[object Object]"
+2022-10-16T00:41:43.572Z  [personalFinances-api] info PUT /bill - {"bill_id":4,"user_id":1,"name":"Remédios tosse","category":"Saude","establishment":"Drogaria Raia","amount":65.95,"purchase_date":"2022-10-15","payment":"À vista","installments":null}
+2022-10-16T00:41:49.940Z  [personalFinances-api] error PUT  - Unexpected token } in JSON at position 199
+2022-10-16T00:41:55.947Z  [personalFinances-api] info PUT /bill - {"bill_id":4,"user_id":1,"name":"Remédios tosse","category":"Saude","establishment":"Drogaria Raia","amount":65.95,"purchase_date":"2022-10-15","payment":"À vista"}
+2022-10-16T00:41:59.775Z  [personalFinances-api] info PUT /bill - {"bill_id":4,"user_id":1,"name":"Remédios tosse","category":"Saude","establishment":"Drogaria Raia","amount":65.95,"purchase_date":"2022-10-15","payment":"À vista"}
+2022-10-16T00:42:19.895Z  [personalFinances-api] info PUT /bill - {"bill_id":4,"user_id":1,"name":"Remédios tosse","category":"Saude","establishment":"Drogaria Droga +","amount":85.95,"purchase_date":"2022-10-15","payment":"À vista"}
+2022-10-16T00:42:25.480Z  [personalFinances-api] info GET /bill/userId - lista de contad do user: "1"
+2022-10-16T00:50:27.706Z  [personalFinances-api] info GET /bill/userId - lista de contad do user: "1"
+2022-10-16T00:53:58.334Z  [personalFinances-api] error POST  - Nome, categoria, total, data e formada de pagamento da conta são obrigatórios
+2022-10-16T00:56:22.037Z  [personalFinances-api] info POST /deposit - {"name":"Salário","user_id":1,"description":"Salario da empresa HBA","amount":3565.95,"payday":"2022-10-15"}
+2022-10-16T00:56:26.940Z  [personalFinances-api] info GET /deposit/userId - lista de contad do user: "1"
+2022-10-16T00:56:54.958Z  [personalFinances-api] error PUT  - ID, nome, categoria, total, data e formada de pagamento da conta são obrigatórios
+2022-10-16T00:57:56.329Z  [personalFinances-api] error PUT  - ID, nome, categoria, total, data e formada de pagamento da conta são obrigatórios
+2022-10-16T00:58:55.527Z  [personalFinances-api] error PUT  - ID, nome, categoria, total, data e formada de pagamento da conta são obrigatórios
+2022-10-16T00:59:10.744Z  [personalFinances-api] error PUT  - ID, nome, categoria, total, data e formada de pagamento da conta são obrigatórios
+2022-10-16T00:59:24.739Z  [personalFinances-api] error PUT  - ID, nome, categoria, total, data e formada de pagamento da conta são obrigatórios
+2022-10-16T01:00:07.563Z  [personalFinances-api] info PUT /deposit - {"deposit_id":1,"user_id":1,"name":"Salário","description":"Salario da empresa HBA","amount":3835.95,"payday":"2022-10-05"}
+2022-10-16T01:00:14.569Z  [personalFinances-api] info GET /deposit/userId - lista de contad do user: "1"
+2022-10-16T11:05:43.052Z  [personalFinances-api] info GET /bill/userId - lista de contad do user: "1"
+2022-10-16T11:05:59.281Z  [personalFinances-api] info GET /user - "1"
+2022-10-16T11:06:21.554Z  [personalFinances-api] info GET /bill/userId - lista de contad do user: "1"
+2022-10-16T11:08:06.991Z  [personalFinances-api] info GET /deposit/userId - lista de contad do user: "1"
+2022-10-16T11:08:46.008Z  [personalFinances-api] info POST /deposit - {"name":"Frelancer","user_id":1,"description":"Pagamento do projeto frelancer ","amount":500,"payday":"2022-10-16"}
+2022-10-16T11:08:49.700Z  [personalFinances-api] info GET /deposit/userId - lista de contad do user: "1"
+2022-10-16T11:09:11.191Z  [personalFinances-api] info POST /deposit - {"name":"Frelancer","user_id":1,"description":"Pagamento do projeto frelancer ","amount":500,"payday":"2022-10-16"}
+2022-10-16T11:09:15.276Z  [personalFinances-api] info GET /deposit/userId - lista de contad do user: "1"
+2022-10-16T11:09:26.353Z  [personalFinances-api] info DELETE /deposit/id - "3"
+2022-10-16T11:09:29.639Z  [personalFinances-api] info GET /deposit/userId - lista de contad do user: "1"
