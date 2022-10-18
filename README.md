@@ -221,7 +221,7 @@ Esta API REST fornece cadastro, leitura e atualização de usuários, contas e e
 
 ```http
 {
-	"deposit_id": 2,
+    "deposit_id": 2,
     "user_id": 1,
     "name": "Férias",
     "description": "Pagamento das férias ",
@@ -274,7 +274,7 @@ Esta API REST fornece cadastro, leitura e atualização de usuários, contas e e
 
 ```http
  {
-	"deposit_id": 1,
+    "deposit_id": 1,
     "user_id": 1,
     "name": "Salário",
     "description": "Salario da empresa",
@@ -286,7 +286,7 @@ Esta API REST fornece cadastro, leitura e atualização de usuários, contas e e
 
 ```http
 {
-	"deposit_id": 1,
+    "deposit_id": 1,
     "user_id": 1,
     "name": "Salário e bonificação",
     "description": "Salario da empresa",
