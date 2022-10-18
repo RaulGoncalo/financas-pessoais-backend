@@ -29,9 +29,9 @@ Esta API REST fornece cadastro, leitura e atualização de usuários, contas e e
 
 ```http
   {
-    "user_id": 1,
-    "name": "Teste",
-    "email": "teste@email.com"
+	"user_id": 1,
+	"name": "Teste",
+	"email": "teste@email.com"
   }
 ```
 #
@@ -48,9 +48,9 @@ Esta API REST fornece cadastro, leitura e atualização de usuários, contas e e
 
 ```http
   {
-    "name": "Teste",
-    "email": "teste@email.com",
-    "password": "**********"
+	"name": "Teste",
+	"email": "teste@email.com",
+	"password": "**********"
   }
 ```
 
@@ -58,9 +58,9 @@ Esta API REST fornece cadastro, leitura e atualização de usuários, contas e e
 
 ```http
   {
-    "user_id": 1,
-    "name": "Teste",
-    "email": "teste@email.com"
+	"user_id": 1,
+	"name": "Teste",
+	"email": "teste@email.com"
   }
 ```
 
@@ -77,19 +77,19 @@ Esta API REST fornece cadastro, leitura e atualização de usuários, contas e e
 
 ```http
   {
-    "user_id" :1, 
-    "name": "Teste Teste teste",
-    "email": "teste.teste@email.com",
-    "password": "**********"
+	"user_id" :1, 
+	"name": "Teste Teste teste",
+	"email": "teste.teste@email.com",
+	"password": "**********"
   }
 ```
 ##### Retorno:
 
 ```http
   {
-    "user_id": 1,
-    "name": "Teste Teste teste",
-    "email": "teste.teste@email.com"
+	"user_id": 1,
+	"name": "Teste Teste teste",
+	"email": "teste.teste@email.com"
   }
 ```
 
@@ -174,14 +174,14 @@ Esta API REST fornece cadastro, leitura e atualização de usuários, contas e e
 
 ```http
 {
-    "user_id": 1
-    "name": "Remédios gripe",
-    "category": "Saude",
-    "establishment": "Drogaria Droga +",
-    "amount": 85.95,
-    "purchase_date": "2022-10-15",
-    "payment": "À vista",
-    "installments": null
+	"user_id": 1
+	"name": "Remédios gripe",
+	"category": "Saude",
+	"establishment": "Drogaria Droga +",
+	"amount": 85.95,
+	"purchase_date": "2022-10-15",
+	"payment": "À vista",
+	"installments": null
 }
 ```
 
@@ -210,23 +210,23 @@ Esta API REST fornece cadastro, leitura e atualização de usuários, contas e e
 
 ```http
 {
-    "user_id": 1,
-    "name": "Férias",
-    "description": "Pagamento das férias ",
-    "amount": 5000.00,
-    "payday": "2022-10-16"
+	"user_id": 1,
+	"name": "Férias",
+	"description": "Pagamento das férias ",
+	"amount": 5000.00,
+	"payday": "2022-10-16"
 }
 ```
 ##### Retorno:
 
 ```http
 {
-    "deposit_id": 2,
-    "user_id": 1,
-    "name": "Férias",
-    "description": "Pagamento das férias ",
-    "amount": 5000.00,
-    "payday": "2022-10-16"
+	"deposit_id": 2,
+	"user_id": 1,
+	"name": "Férias",
+	"description": "Pagamento das férias ",
+	"amount": 5000.00,
+	"payday": "2022-10-16"
 }
 ```
 
@@ -274,24 +274,24 @@ Esta API REST fornece cadastro, leitura e atualização de usuários, contas e e
 
 ```http
  {
-    "deposit_id": 1,
-    "user_id": 1,
-    "name": "Salário",
-    "description": "Salario da empresa",
-    "amount": 5000.95,
-    "payday": "2022-10-05"
+	"deposit_id": 1,
+	"user_id": 1,
+	"name": "Salário",
+	"description": "Salario da empresa",
+	"amount": 5000.95,
+	"payday": "2022-10-05"
 }
 ```
 ##### Retorno:
 
 ```http
 {
-    "deposit_id": 1,
-    "user_id": 1,
-    "name": "Salário e bonificação",
-    "description": "Salario da empresa",
-    "amount": 5000.95,
-    "payday": "2022-10-05"
+	"deposit_id": 1,
+	"user_id": 1,
+	"name": "Salário e bonificação",
+	"description": "Salario da empresa",
+	"amount": 5000.95,
+	"payday": "2022-10-05"
 }
 ```
 #
